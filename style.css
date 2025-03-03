@@ -1,6 +1,14 @@
-.header.logo {
+body {
+  margin-top: 0;
+}
+.header-logo {
   background-image: url(./img/immagine-logo-background.png);
+  background-color: rgb(9, 160, 236);
+  margin: 0;
 }
 .commenti-foto {
-  font-size: 5px;
+  font-size: 12px;
+}
+thead {
+  background-color: royalblue;
 }

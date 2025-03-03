@@ -4,35 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>html-css-booleaner</title>
-    <link rel="stylesheet" type="css" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <!--header del logo iniziale -->
-  <header class="header-logo">
-    <figure>
-      <img src="./img/logo-boolean.png" alt="immagine interna logo" />
-    </figure>
-  </header>
-  <!-- header titolo -->
-  <header>
-    <h1>
-      Internet deve essere al servizio del "bene pubblico":il <br />
-      manifesto di Tim Berners Lee
-    </h1>
-    <address>
-      Scritto da<a href="#">The Booleaner</a> <br />
-      <time>il 10/10/20</time>
-    </address>
-    <figure>
-      <img src="./img/tim-1.jpg" alt="Immagine-Barnard-header-sx" />
-      <img src="./img/tim-2.jpg" alt="Immagine-Barnard-header-dx" />
-      <p class="commenti-foto">
-        1st Photo: John A.and James L.knight Foundation,by Scott Henrichsen
-      </p>
-      <p class="commenti-foto">2nd Photo:Wikimedia,by Paul Clarke</p>
-    </figure>
-  </header>
-  <!-- parte centrale -->
   <body>
+    <!--header del logo iniziale -->
+    <header class="header-logo">
+      <figure>
+        <img src="./img/logo-boolean.png" alt="immagine interna logo" />
+      </figure>
+    </header>
+    <!-- header titolo -->
+    <header>
+      <h1>
+        Internet deve essere al servizio del "bene pubblico":il <br />
+        manifesto di Tim Berners Lee Test
+      </h1>
+      <address>
+        Scritto da<a href="#">The Booleaner</a> <br />
+        il 10/10/20
+      </address>
+      <figure>
+        <img src="./img/tim-1.jpg" alt="Immagine-Barnard-header-sx" />
+        <img src="./img/tim-2.jpg" alt="Immagine-Barnard-header-dx" />
+        <p class="commenti-foto">
+          1st Photo: John A.and James L.knight Foundation,by Scott Henrichsen
+        </p>
+        <p class="commenti-foto">2nd Photo:Wikimedia,by Paul Clarke</p>
+      </figure>
+    </header>
+    <!-- parte centrale -->
     <main>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
       reiciendis exercitationem nihil deleniti facilis harum hic odio rerum ad
@@ -53,12 +53,69 @@
     <!-- tabella -->
     <div>
       <table>
-        <tr>
-          <th>Lorem, ipsum dolor.</th>
-          <th>Lorem, ipsum dolor.</th>
-          <th>Lorem, ipsum dolor.</th>
-        </tr>
+        <thead class="thead-blue">
+          <tr>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+            <th>Lorem, ipsum dolor.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr-color azzurro">
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A cumque
+              repudiandae deleniti similique quasi eius voluptatum
+              necessitatibus eos incidunt numquam totam ipsam fugiat ducimus
+              debitis, corrupti aliquid at sunt? Aliquid.
+            </td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A cumque
+              repudiandae deleniti similique quasi eius voluptatum
+              necessitatibus eos incidunt numquam totam ipsam fugiat ducimus
+              debitis, corrupti aliquid at sunt? Aliquid.
+            </td>
+          </tr>
+          <tr class="tr colore azzurro">
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. A cumque
+              repudiandae deleniti similique quasi eius voluptatum
+              necessitatibus eos incidunt numquam totam ipsam fugiat ducimus
+              debitis, corrupti aliquid at sunt? Aliquid.
+            </td>
+          </tr>
+        </tbody>
       </table>
+    </div>
+    <br />
+    <!-- nuovo paragrafo -->
+    <div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <mark
+          >Dolorum laudantium provident similique id nam sapiente, fugit
+          laborum, dicta dolor tempore excepturi voluptas consequatur reiciendis
+          culpa iste</mark
+        >, nihil vitae obcaecati suscipit!
+      </p>
+    </div>
+    <br />
+    <!-- sezione finale -->
+    <div>
+      <h2>Potrebbero interessarti</h2>
+      <br />
+      <figure>
+        <img src="./img/immagine-footer-1.jpg" alt="immagine fondo viola" />
+        <br />
+        <img src="./img/immagine-footer-2.jpg" alt="immagine foter rossa" />
+      </figure>
     </div>
   </body>
 </html>
