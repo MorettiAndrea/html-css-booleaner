@@ -1,5 +1,5 @@
-body {
-  margin-top: 0;
+.body {
+  margin: 0;
 }
 .header-logo {
   background-image: url(./img/immagine-logo-background.png);
@@ -9,6 +9,12 @@ body {
 .commenti-foto {
   font-size: 12px;
 }
-thead {
+.th-blu {
   background-color: royalblue;
+}
+.tr-colore-azzurro {
+  background-color: aquamarine;
+}
+.tabella {
+  margin: 0;
 }
