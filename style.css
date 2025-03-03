@@ -1,3 +1,6 @@
-.header-logo {
-  background-color: aqua;
+.header.logo {
+  background-image: url(./img/immagine-logo-background.png);
+}
+.commenti-foto {
+  font-size: 5px;
 }
